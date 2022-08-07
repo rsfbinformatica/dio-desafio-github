@@ -1,3 +1,45 @@
-Link de donwload -> https://git-scm.com/download
+Introdução ao Git
 
-Aula de git/github na DIO top de mais.
+Git vs GitHub
+
+1 - Git é o programa que faz o versionamento em si e administra repositórios;
+
+2 - GitHub é um serviço que hospeda repositórios Git em um servidor.
+
+Obs - Existem outros serviços semelhantes, como o GitLab e o BitBucket.
+
+Instalação
+
+1 - Windows - Acesse o link https://git-scm.com/download/win.
+
+2 - Linux - Por padrão o Git já vem instalado, mas você pode instalar pelo gerenciador de pacotes do seu sistema.
+
+Obs - Você pode verificar a versão do Git Instalado na sua máquina com o seguinte comando:
+
+git --version
+
+Configuração
+
+A configuração obrigatória do Git é o Nome e o Email.
+
+1 - Para definir o nome, basta executar:
+
+git config user.name 'Seu nome'
+
+2 - Para definir o email, basta executar:
+
+git config user.email 'nome@email.com'
+
+3 - Para verificar o nome, basta executar:
+
+git config user.name
+
+4 - Para verificar o email, basta executar:
+
+git config user.email
+
+Obs - Dependendo da versão do Git, basta executar:
+
+git config --global pull.rebase false
+
+Com isso finalizamos a instalação configuração, do ambiente Git!!
